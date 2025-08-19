@@ -1,0 +1,81 @@
+Project Validation Report
+=========================
+Date: Tue Aug 19 14:00:58 IST 2025
+Project: database-connection-pool
+
+Maven Version:
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: C:\Users\GirishHiremath\Downloads\apache-maven-3.9.9
+Java version: 21.0.6, vendor: Red Hat, Inc., runtime: C:\Program Files\RedHat\java-21-openjdk-21.0.6.0.7-1
+Default locale: en_IN, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+
+Java Version:
+openjdk version "21.0.6" 2025-01-21 LTS
+OpenJDK Runtime Environment (Red_Hat-21.0.6.0+7-1) (build 21.0.6+7-LTS)
+OpenJDK 64-Bit Server VM (Red_Hat-21.0.6.0+7-1) (build 21.0.6+7-LTS, mixed mode, sharing)
+
+Dependencies:
+
+Test Results Summary:
+Test Results Summary (TEST-com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$BusinessLogicTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$BusinessLogicTests" time="0.182" tests="5" errors="0" skipped="0" failures="0">
+  <testcase name="testEmailFormatValidation" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$BusinessLogicTests" time="0.095">
+  <testcase name="testCaseInsensitiveEmailComparison" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$BusinessLogicTests" time="0.014"/>
+  <testcase name="testDuplicateEmailPrevention" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$BusinessLogicTests" time="0.011"/>
+  <testcase name="testAdminOnlyPermissionAccess" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$BusinessLogicTests" time="0.017"/>
+  <testcase name="testSequentialUserIdGeneration" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$BusinessLogicTests" time="0.02"/>
+Test Results Summary (TEST-com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ErrorResponseFormatTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ErrorResponseFormatTests" time="0.047" tests="3" errors="0" skipped="0" failures="0">
+  <testcase name="testTimestampFormat" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ErrorResponseFormatTests" time="0.011">
+  <testcase name="testValidationErrorResponseStructure" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ErrorResponseFormatTests" time="0.012"/>
+  <testcase name="testErrorResponseStructure" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ErrorResponseFormatTests" time="0.009"/>
+Test Results Summary (TEST-com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ExceptionHandlerTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ExceptionHandlerTests" time="0.087" tests="6" errors="0" skipped="0" failures="0">
+  <testcase name="testBusinessLogicException" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ExceptionHandlerTests" time="0.013">
+  <testcase name="testValidationException" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ExceptionHandlerTests" time="0.012"/>
+  <testcase name="testResourceNotFoundException" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ExceptionHandlerTests" time="0.01"/>
+  <testcase name="testIllegalArgumentException" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ExceptionHandlerTests" time="0.009"/>
+  <testcase name="testGenericException" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ExceptionHandlerTests" time="0.011">
+  <testcase name="testUnauthorizedException" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$ExceptionHandlerTests" time="0.009"/>
+Test Results Summary (TEST-com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$IntegrationTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$IntegrationTests" time="0.076" tests="3" errors="0" skipped="0" failures="0">
+  <testcase name="testEdgeCaseUserIds" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$IntegrationTests" time="0.018">
+  <testcase name="testCompleteUserLifecycle" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$IntegrationTests" time="0.029"/>
+  <testcase name="testMultipleValidationErrors" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$IntegrationTests" time="0.012"/>
+Test Results Summary (TEST-com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$PerformanceTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$PerformanceTests" time="3.17" tests="2" errors="0" skipped="0" failures="0">
+  <testcase name="testRapidExceptionGeneration" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$PerformanceTests" time="1.232">
+  <testcase name="testConcurrentRequests" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$PerformanceTests" time="0.018"/>
+Test Results Summary (TEST-com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$RestControllerTests.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$RestControllerTests" time="0.092" tests="6" errors="0" skipped="0" failures="0">
+  <testcase name="testGetAllUsers" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$RestControllerTests" time="0.016">
+  <testcase name="testGetAdminUserPermissions" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$RestControllerTests" time="0.008"/>
+  <testcase name="testDeleteAdminUser" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$RestControllerTests" time="0.008"/>
+  <testcase name="testGetUserById" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$RestControllerTests" time="0.006"/>
+  <testcase name="testDeleteRegularUser" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$RestControllerTests" time="0.013"/>
+  <testcase name="testCreateValidUser" classname="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest$RestControllerTests" time="0.014"/>
+Test Results Summary (TEST-com.example.exceptionhandler.GlobalExceptionHandlerDemoTest.xml):
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.exceptionhandler.GlobalExceptionHandlerDemoTest" time="4.08" tests="0" errors="0" skipped="0" failures="0">
+
+HikariCP Connection Pool Features Validated:
+- Spring Boot Application (@SpringBootApplication)
+- HikariCP Configuration Properties (@ConfigurationProperties)
+- Database Configuration (DatabaseConfig with HikariDataSource)
+- Connection Pool Health Monitoring (DatabaseHealthIndicator)
+- Custom Actuator Endpoint (/actuator/connectionpool)
+- Database Test Controller (/test-db, /load-test, /pool-status)
+- Performance Optimized Settings (pool-size, timeouts, leak-detection)
+- JMX Monitoring and Metrics Collection
+- Connection Validation and Health Checks
+- Production and Test Environment Configurations
+- Comprehensive Test Suite (25 tests in 6 categories)
+  - HikariCP Properties Tests (4 tests)
+  - Database Configuration Tests (5 tests)
+  - Health Indicator Tests (3 tests)
+  - REST Controller Tests (4 tests)
+  - Actuator Endpoint Tests (5 tests)
+  - Performance Tests (5 tests)
+  - Integration Tests (2 tests)
+- Connection Pool Performance Testing (concurrent operations, exhaustion handling)
+- TestRestTemplate Integration Testing (HTTP endpoint validation)
